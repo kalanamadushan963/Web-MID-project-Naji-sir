@@ -1,5 +1,6 @@
 <?php
 
+
 include "db_connect_ticket.php";
 
 $sql = "SELECT * FROM move WHERE movieID = '2' ";
