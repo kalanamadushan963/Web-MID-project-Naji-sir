@@ -31,7 +31,6 @@ var newpassword=document.myform.newpassword.value;
 include "db_connect_ticket.php";
 
 
-// include "search_all.php";
 
 ?>
 <form action="loging.php" method="post">
