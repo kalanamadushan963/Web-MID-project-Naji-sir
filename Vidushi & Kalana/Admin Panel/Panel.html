@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CINE-CEYLON Admin</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<link rel="stylesheet" type="text/css" href="css/sourcesanspro-font.css">
+
+	<link rel="stylesheet" href="css/style.css"/>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CINECEYLON Admin</title>
+	<meta name="description" content="Blueprint: A basic template for a responsive multi-level menu" />
+	<meta name="keywords" content="blueprint, template, html, css, menu, responsive, mobile-friendly" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="kkf.png">
+
+
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr-custom.js"></script>
+</head>
+<body>
+
+
+	<header class="bp-header cf">
+			<div class="dummy-logo">
+				
+				
+				<h2 class="dummy-heading">WWW.CINECEYLON.LK</br></br>
+					<font color="yellow" size="large">ADMIN PANEL</font></h2>
+				
+			</div>
+<div class="bp-header__main">
+			</div>
+		</header>
+		<button class="action action--open" aria-label="Open Menu"><span class="icon icon--menu"></span></button>
+		<nav id="ml-menu" class="menu">
+			<button class="action action--close" aria-label="Close Menu"><span class="icon icon--cross"></span></button>
+			<div class="menu__wrap">
+				<ul data-menu="main" class="menu__level" tabindex="-1" role="menu" aria-label="All">
+					<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-1" aria-owns="submenu-1" href="#">Admin Panel Buttons</a></li>
+
+				</ul>
+				
+				<ul data-menu="submenu-1" id="submenu-1" class="menu__level" tabindex="-1" role="menu" aria-label="Vegetables">
+					<li class="menu__item"><a class="menu__link"><a href="movie panel/index.html"> Admin Movies</a></a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" ><a href="theatre panel/theatreadd.html">Admin theatre</a></a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link"><a href="seat panel/seat.html">Admin Seats</a></a></li>
+	
+				</div>
+		</nav>
+	
+			
+		</div>
+	</div>
+   
+		
+	<div class="page-content">
+	   
+		<div class="form-v8-content">
+			
+			<div class="form-left">
+				
+				<img src="images/form-v8.jpg" alt="form">
+			</div>
+			<div class="form-right">
+				<div class="tab">
+					<div class="tab-inner">
+						<button class="tablinks" onclick="openCity(event, 'sign-up')" id="defaultOpen">Admin Sign Up</button>
+					</div>
+					<div class="tab-inner">
+						<button class="tablinks" onclick="openCity(event, 'sign-in')">Admin Sign In</button>
+					</div>
+				</div>
+				<form class="form-detail" action="#" method="post">
+					<div class="tabcontent" id="sign-up">
+						<div class="form-row">
+							<label class="form-row-inner">
+								<input type="text" name="full_name" id="full_name" class="input-text" required>
+								<span class="label">Admin Username</span>
+		  						<span class="border"></span>
+							</label>
+						</div>
+						<div class="form-row">
+							<label class="form-row-inner">
+								<input type="text" name="your_email" id="your_email" class="input-text" required>
+								<span class="label">Admin E-Mail</span>
+		  						<span class="border"></span>
+							</label>
+						</div>
+						<div class="form-row">
+							<label class="form-row-inner">
+								<input type="password" name="password" id="password" class="input-text" required>
+								<span class="label">Password</span>
+								<span class="border"></span>
+							</label>
+						</div>
+						<div class="form-row">
+							<label class="form-row-inner">
+								<input type="password" name="comfirm_password" id="comfirm_password" class="input-text" required>
+								<span class="label">Confirm Password</span>
+								<span class="border"></span>
+							</label>
+						</div>
+						<div class="form-row-last">
+							<input type="submit" name="register" class="register" value="Register">
+						</div>
+					</div>
+				</form>
+				<form class="form-detail" action="#" method="post">
+					<div class="tabcontent" id="sign-in">
+						<div class="form-row">
+							<label class="form-row-inner">
+								<input type="text" name="full_name_1" id="full_name_1" class="input-text" required>
+								<span class="label">Admin Username</span>
+		  						<span class="border"></span>
+							</label>
+						</div>
+					</br>
+						<div class="form-row">
+							<label class="form-row-inner">
+								
+							</label>
+						</div>
+						<div class="form-row">
+							<label class="form-row-inner">
+								<input type="password" name="password_1" id="password_1" class="input-text" required>
+								<span class="label">Password</span>
+								<span class="border"></span>
+							</label>
+						</div>
+					</br>
+						<div class="form-row">
+							<label class="form-row-inner">
+								
+							</label>
+						</div>
+						<div class="form-row-last">
+							<input type="submit" name="register" class="register" value="Sign In">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function openCity(evt, cityName) {
+		    var i, tabcontent, tablinks;
+		    tabcontent = document.getElementsByClassName("tabcontent");
+		    for (i = 0; i < tabcontent.length; i++) {
+		        tabcontent[i].style.display = "none";
+		    }
+		    tablinks = document.getElementsByClassName("tablinks");
+		    for (i = 0; i < tablinks.length; i++) {
+		        tablinks[i].className = tablinks[i].className.replace(" active", "");
+		    }
+		    document.getElementById(cityName).style.display = "block";
+		    evt.currentTarget.className += " active";
+		}
+
+		document.getElementById("defaultOpen").click();
+	</script>
+	
+	<script src="js/classie.js"></script>
+	<script src="js/dummydata.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+	(function() {
+		var menuEl = document.getElementById('ml-menu'),
+			mlmenu = new MLMenu(menuEl, {
+			
+				backCtrl : false,
+	
+				onItemClick: loadDummyData 
+			});
+
+		
+		var openMenuCtrl = document.querySelector('.action--open'),
+			closeMenuCtrl = document.querySelector('.action--close');
+
+		openMenuCtrl.addEventListener('click', openMenu);
+		closeMenuCtrl.addEventListener('click', closeMenu);
+
+		function openMenu() {
+			classie.add(menuEl, 'menu--open');
+			closeMenuCtrl.focus();
+		}
+
+		function closeMenu() {
+			classie.remove(menuEl, 'menu--open');
+			openMenuCtrl.focus();
+		}
+
+	
+		var gridWrapper = document.querySelector('.content');
+
+		function loadDummyData(ev, itemName) {
+			ev.preventDefault();
+
+			closeMenu();
+			gridWrapper.innerHTML = '';
+			classie.add(gridWrapper, 'content--loading');
+			setTimeout(function() {
+				classie.remove(gridWrapper, 'content--loading');
+				gridWrapper.innerHTML = '<ul class="products">' + dummyData[itemName] + '<ul>';
+			}, 700);
+		}
+	})();
+	</script>
+</body>
+</body>
+</html>
