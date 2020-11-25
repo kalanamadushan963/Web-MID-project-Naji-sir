@@ -9,6 +9,7 @@ $result = $conn->query($sql);
 	{
 		
 	?>
+
 	
 	
 	<title><?php echo $row['movieTitle']; ?></title>
