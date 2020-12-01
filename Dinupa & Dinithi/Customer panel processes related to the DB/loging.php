@@ -1,12 +1,8 @@
 <?php
 
-$host="localhost";
-$user="root";
-$password="usbw";
-$db="book_ticket";
+include "db_connect_ticket.php";
 
-mysql_connect($host,$user,$password);
-mysql_select_db($db);
+
 
 if(isset($_POST['email'])){
     $email=$_POST['email'];
