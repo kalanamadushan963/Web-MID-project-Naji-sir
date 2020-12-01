@@ -12,11 +12,10 @@ $database_in_use = "book_ticket";
 
 $conn = new mysqli($host, $username, $user_pass, $database_in_use);
 
-// for check the connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-} 
-echo "Connected successfully";
+mysql_connect($host,$username,$user_pass);
+
+mysql_select_db($database_in_use);
+
 
 
 ?>
