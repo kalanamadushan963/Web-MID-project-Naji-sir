@@ -1,12 +1,6 @@
 <?php
 
-$host="localhost";
-$user="root";
-$password="usbw";
-$db="book_ticket";
-
-mysql_connect($host,$user,$password);
-mysql_select_db($db);
+include "db_connect_ticket.php";
 
 if(isset($_POST['full_name_1'])){
     $full_name_1=$_POST['full_name_1'];
@@ -27,5 +21,6 @@ if(isset($_POST['full_name_1'])){
 }
 
 ?>
+
 
 
