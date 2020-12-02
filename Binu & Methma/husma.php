@@ -21,7 +21,7 @@ body, html {
 }
 
 .bg-img {
-  /* The image used */
+ 
   background-image: url("image/husma.jpg");
   height:100%;
   width: 100%;
