@@ -23,7 +23,7 @@ body, html {
 }
 
 .bg-img {
-  /* The image used */
+  
   background-image: url("image/us.jpg");
   height:100%;
   width: 100%;
