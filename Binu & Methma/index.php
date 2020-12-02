@@ -3,8 +3,6 @@
     <head>
         <title>Movies</title>
         <meta charset="utf-8">
-        <!-- Somehow I got an error, so I comment the title, just uncomment to show -->
-        <!-- <title>Responsive Footer Section | CodingNepal</title> -->
         <link rel="stylesheet" href="style.css">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
